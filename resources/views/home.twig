@@ -1,0 +1,184 @@
+
+
+{% extends 'templates/app.twig'%}
+{% block content %}
+
+<style>
+.proerty-th iframe{
+display:block;
+}
+@media only screen and (max-width: 768px) {
+.ig-big{
+display: none;
+}
+
+}
+@media only screen and (max-device-width: 480px) {
+  .ig-big{
+  display: none;
+  }
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .ig-small{
+  display: none;
+  }
+}
+</style>
+<div class="slide-2">
+   <div id="slider" class="sl-slider-wrapper">
+      <div class="sl-slider">
+         <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+            <div class="sl-slide-inner ">
+               <div class="bg-img bg-img-1" style="background-image: url({{ base_url() }}/public/images/6.jpeg);"></div>
+               <blockquote>
+                  <cite><a href="property.html">Ralph Waldo villa</a></cite>
+                  <p>You have just dined, and however scrupulously the slaughterhouse
+                     is concealed in the graceful distance of miles, there is complicity.
+                  </p>
+                  <span class="pull-left"><b> tags :</b> #maulid </span>
+                  <span class="proerty-price pull-right"> visit</span>
+               </blockquote>
+            </div>
+         </div>
+         <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+            <div class="sl-slide-inner ">
+               <div class="bg-img bg-img-1" style="background-image: url({{ base_url() }}/public/images/5.jpeg);"></div>
+               <blockquote>
+                  <cite><a href="property.html">Kyoto hows villa</a></cite>
+                  <p>You have just dined, and however scrupulously the slaughterhouse
+                     is concealed in the graceful distance of miles, there is complicity.
+                  </p>
+                  <span class="pull-left"><b> tags :</b> #maulid </span>
+                  <span class="proerty-price pull-right"> visit</span>
+               </blockquote>
+            </div>
+         </div>
+         <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide-inner ">
+               <div class="bg-img bg-img-1" style="background-image: url({{ base_url() }}/public/images/4.jpeg);"></div>
+               <blockquote>
+                  <cite><a href="property.html">New Waldo villa</a></cite>
+                  <p>You have just dined, and however scrupulously the slaughterhouse
+                     is concealed in the graceful distance of miles, there is complicity.
+                  </p>
+                  <span class="pull-left"><b> tags :</b> #maulid </span>
+                  <span class="proerty-price pull-right"> visit</span>
+               </blockquote>
+            </div>
+         </div>
+         <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+            <div class="sl-slide-inner ">
+               <div class="bg-img bg-img-1" style="background-image: url({{ base_url() }}/public/images/3.jpeg);"></div>
+               <blockquote>
+                  <cite><a href="property.html">New Waldo villa</a></cite>
+                  <p>You have just dined, and however scrupulously the slaughterhouse
+                     is concealed in the graceful distance of miles, there is complicity.
+                  </p>
+                  <span class="pull-left"><b> tags :</b> #maulid </span>
+                  <span class="proerty-price pull-right"> visit</span>
+               </blockquote>
+            </div>
+         </div>
+      </div>
+      <!-- /sl-slider -->
+      <nav id="nav-dots" class="nav-dots">
+         <span class="nav-dot-current"></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </nav>
+   </div>
+   <!-- /slider-wrapper -->
+</div>
+<div class="content-area home-area-1 recent-property" style="background-color: #FCFCFC; padding-bottom: 55px;">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+            <!-- /.feature title -->
+            <h2>instagram post</h2>
+            <hr>
+         </div>
+      </div>
+      <div class="row">
+         <div class="proerty-th">
+            <div class="ig-big">
+              <iframe src="//users.instush.com/collage/?cols=11&rows=7&sl=true&user_id=4038801441&username=mt.ibadurrahman&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=true&grd=false&gpd=6&drp=true&pin=false&t=999999jQogpYOryDbAKcZ5b1pHjNxOCw4AX75n5nKpNYpG5bDB4pTLJA1tTQGBVx3BMhGE8ot3JtaEujs" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block; margin:auto; width:1185px;height:733px;border:none;overflow:visible;" ></iframe>
+            </div>
+
+            <div class="ig-small">
+            <iframe src="//users.instush.com/collage/?cols=5&rows=6&sl=true&user_id=4038801441&username=mt.ibadurrahman&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=true&gpd=0&drp=true&pin=false&t=999999jQogpYOryDbAKcZ5b1pHjNxOCw4AX75n5nKpNYpG5bDB4pTLJA1tTQGBVx3BMhGE8ot3JtaEujs" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block; margin:auto; width:auto;height:618px;border:none;overflow:visible;" ></iframe>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div class="Welcome-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 Welcome-entry  col-sm-12">
+                        <div class="col-md-5 col-md-offset-2 col-sm-6 col-xs-12">
+                            <div class="welcome_text wow fadeInLeft" data-wow-delay="0.3s" data-wow-offset="100">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+                                        <!-- /.feature title -->
+                                        <h2></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12">
+                            <div  class="welcome_services wow fadeInRight" data-wow-delay="0.3s" data-wow-offset="100">
+                                <div class="row">
+                                    <div class="col-xs-6 m-padding">
+                                        <div class="welcome-estate">
+                                            <div class="welcome-icon">
+                                                <i class="pe-7s-home pe-4x"></i>
+                                            </div>
+                                            <h3>Any product</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 m-padding">
+                                        <div class="welcome-estate">
+                                            <div class="welcome-icon">
+                                                <i class="pe-7s-users pe-4x"></i>
+                                            </div>
+                                            <h3>donasi</h3>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-xs-12 text-center">
+                                        <i class="welcome-circle"></i>
+                                    </div>
+
+                                    <div class="col-xs-6 m-padding">
+                                        <div class="welcome-estate">
+                                            <div class="welcome-icon">
+                                                <i class="pe-7s-notebook pe-4x"></i>
+                                            </div>
+                                            <h3>artikel</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 m-padding">
+                                        <div class="welcome-estate">
+                                            <div class="welcome-icon">
+                                                <i class="pe-7s-help2 pe-4x"></i>
+                                            </div>
+                                            <h3>activity </h3>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}

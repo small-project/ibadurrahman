@@ -1,0 +1,98 @@
+{% extends 'templates/app.twig'%}
+
+{% block content %}
+
+<div class="page-head">
+            <div class="container">
+                <div class="row">
+                    <div class="page-head-content">
+                        <h1 class="page-title">contact page</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-area recent-property padding-top-40" style="background-color: #FFF;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="" id="contact1">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h3><i class="fa fa-map-marker"></i> Address</h3>
+                                            <p>1Jl. H. Muhyin No.79-80, Jaticempaka, Pondokgede, Kota Bks, Jawa Barat 17411
+                                                <br>
+                                                <strong>Indonesia</strong>
+                                            </p>
+                                        </div>
+                                        <!-- /.col-sm-4 -->
+                                        <div class="col-sm-4">
+                                            <h3><i class="fa fa-phone"></i> Call center</h3>
+                                            <p class="text-muted">This number is toll free if calling from
+                                                Great Britain otherwise we advise you to use the electronic
+                                                form of communication.</p>
+                                            <p><strong>0857-7774-0030</strong></p>
+                                        </div>
+                                        <!-- /.col-sm-4 -->
+                                        <div class="col-sm-4">
+                                            <h3><i class="fa fa-envelope"></i> Electronic support</h3>
+                                            <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
+                                            <ul>
+                                                <li><strong><a href="mailto:">admin@mtibadurrahman.com</a></strong>   </li>
+
+                                            </ul>
+                                        </div>
+                                        <!-- /.col-sm-4 -->
+                                    </div>
+                                    <!-- /.row -->
+                                    <hr>
+                                    <div id="map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.005846920459!2d106.91370141476932!3d-6.2629588954668005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d2dad70bc5f%3A0x77167ec7f8cb946!2sMt.+Ibadurrahman!5e0!3m2!1sen!2sid!4v1506797879482" width="750" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                    <hr>
+                                    <h2>Contact form</h2>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="firstname">Firstname</label>
+                                                    <input type="text" class="form-control" id="firstname">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="lastname">Lastname</label>
+                                                    <input type="text" class="form-control" id="lastname">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="email">Email</label>
+                                                    <input type="text" class="form-control" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="subject">Subject</label>
+                                                    <input type="text" class="form-control" id="subject">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label for="message">Message</label>
+                                                    <textarea id="message" rows="5" class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 text-center">
+                                                <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+                                            </div>
+                                        </div>
+                                        <!-- /.row -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+{% endblock %}
